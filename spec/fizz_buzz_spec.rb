@@ -14,6 +14,6 @@ describe 'fizz_buzz' do
   end
 
   it "returns 'fizz buzz' if number is divisible by 15" do
-    expect(fizz_buzz(30)).to eq 'fizz buzz happy path'
+    expect(fizz_buzz(30)).to eq 'fizz buzz'
   end
 end
